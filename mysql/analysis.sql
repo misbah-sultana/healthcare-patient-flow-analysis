@@ -49,18 +49,6 @@ FROM admissions
 GROUP BY patient_id;
 
 -- occupancy proxy
-SELECT *
-FROM admissions;
-
-SELECT *
-FROM discharges;
-
-SELECT *
-FROM departments;
-
-SELECT *
-FROM patients;
-
 SELECT 
 dept.department_name,
 COUNT(ad.admission_ID) AS total_admissions,

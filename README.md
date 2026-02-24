@@ -50,6 +50,7 @@ The dashboard includes:
 
 ## Repository Structure
 
+```
 healthcare-patient-flow-analysis/
 │
 ├── mysql/
@@ -67,3 +68,4 @@ healthcare-patient-flow-analysis/
 │   └── dashboard_view.png
 │
 └── README.md
+```

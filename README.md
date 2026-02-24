@@ -49,3 +49,21 @@ The dashboard includes:
 - Certain departments showed higher admission-to-bed ratios, indicating potential load pressure.
 
 ## Repository Structure
+
+healthcare-patient-flow-analysis/
+│
+├── mysql/
+│   ├── schema.sql
+│   ├── data.sql
+│   └── analysis.sql
+│
+├── excel/
+│   ├── los_per_admission.csv
+│   ├── avg_los_by_department.csv
+│   └── los_validation.xlsx
+│
+├── powerbi/
+│   ├── patient_flow_dashboard.pbix
+│   └── dashboard_view.png
+│
+└── README.md
